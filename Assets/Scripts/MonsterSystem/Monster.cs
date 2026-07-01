@@ -8,7 +8,9 @@ public class Monster : MonoBehaviour
     private Animator anim;
     private Collider col;
     [SerializeField]
-    private int hp = 100;
+    private int maxHp = 100;
+    [SerializeField]
+    private int hp = 0;
 
     public float speed = 1f;
     private List<Transform> movePath;
@@ -34,6 +36,8 @@ public class Monster : MonoBehaviour
         if (anim != null) anim.ResetTrigger("Die");
         if (col != null) col.enabled = true;
         isDead = false;
+
+        hp = maxHp;
 
         movePath = path;
         currentPathIndex = 1;
@@ -121,5 +125,6 @@ public class Monster : MonoBehaviour
         OnMonsterDie?.Invoke(this);
 
         gameObject.SetActive(false);
+
     }
 }

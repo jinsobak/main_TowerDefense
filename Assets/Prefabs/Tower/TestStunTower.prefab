@@ -42,6 +42,8 @@ GameObject:
   - component: {fileID: 7515969575203030263}
   - component: {fileID: 4246760559201237255}
   - component: {fileID: 8680207356780825251}
+  - component: {fileID: -2198034926431609077}
+  - component: {fileID: 2544732463236687574}
   m_Layer: 0
   m_Name: TestStunTower
   m_TagString: Untagged
@@ -110,6 +112,35 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0.8, z: 0}
+--- !u!114 &-2198034926431609077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7107717812107533692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d945d9d9aac7f124da79716d88a3329f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TowerInfoProvider
+  targetTransform: {fileID: 7515969575203030263}
+  isAlive: 1
+  isPlaced: 1
+--- !u!114 &2544732463236687574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7107717812107533692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b77edc0a11bf644b0c3859ed1eea7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TowerTargetFinder
+  searchInterval: 0.15
+  targetMode: 0
 --- !u!1001 &8768753227234842144
 PrefabInstance:
   m_ObjectHideFlags: 0

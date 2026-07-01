@@ -16,7 +16,7 @@ public enum TowerAttackMode
     HitBox
 }
 
-[CreateAssetMenu(menuName = "Tower/Data")]
+[CreateAssetMenu(menuName = "TowerDB/Tower Data")]
 public class TowerData : BuildingData
 {
     [Header("Combat")]
@@ -37,7 +37,7 @@ public class TowerData : BuildingData
     public ProjectileData projectileData;
 
     [Header("HitBox Attack")]
-    public HitBoxAttackData hitBoxAttackData;
+    public HitBoxData hitBoxAttackData;
 
     public GameObject bullet;
 }

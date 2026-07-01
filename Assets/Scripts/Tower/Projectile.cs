@@ -100,10 +100,8 @@ public class Projectile : PoolableObject
     #region ±¤¿ª °ø°Ý
     private void ExplosionHit()
     {
-
         DrawExplosionDebug(transform.position, projectileData.explosionRadius);
         Collider[] hits = Physics.OverlapSphere(transform.position, projectileData.explosionRadius, projectileData.targetLayer);
-
 
         foreach (Collider hit in hits)
         {
@@ -125,13 +123,17 @@ public class Projectile : PoolableObject
     #region È÷Æ® ÀÌÆåÆ®
     private void SpawnHitEffect(Vector3 hitPoint)
     {
-        if (projectileData.hitEffectPF == null)
+        int effectID = projectileData.hitEffectID;
+
+        if (effectID <= 0)
             return;
 
-        
+        GameObject prefab = ObjectPoolManager.Instance.GetEffect(projectileData.hitEffectID);
+
+
         PoolEffect effect = ObjectPoolManager.Instance.Spawn<PoolEffect>(
-            projectileData.hitEffectPF,
-            transform.position,
+            prefab,
+            hitPoint,
             Quaternion.identity,
             ObjectPoolManager.Instance.GetEffectParent()
         );

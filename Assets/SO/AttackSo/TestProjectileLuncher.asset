@@ -12,10 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2047d4d09ea8bb248836e0b0069b0cae, type: 3}
   m_Name: TestProjectileLuncher
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileData
-  projectilePF: {fileID: 9042438279177923111, guid: 1b55dec9921f0e4439f638a5cb2a954f, type: 3}
+  projectileReference:
+    m_AssetGUID: 1b55dec9921f0e4439f638a5cb2a954f
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 1
   attackType: 1
   projectileSpeed: 15
   explosionRadius: 1
+  stun: 0
   targetLayer:
     serializedVersion: 2
     m_Bits: 512

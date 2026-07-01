@@ -1,7 +1,9 @@
 ﻿
 using IGameInterface;
 using System.Collections;
+using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 public class Tower : BuildingBase
 {
@@ -12,7 +14,7 @@ public class Tower : BuildingBase
 
     [Header("Projectile Data")]
     [SerializeField] private ProjectileData projectileData;
-    [SerializeField] private HitBoxAttackData hitBoxAttackData;
+    [SerializeField] private HitBoxData hitBoxAttackData;
 
     [Header("Target")]
     [SerializeField] private LayerMask monsterLayer;
@@ -20,6 +22,8 @@ public class Tower : BuildingBase
     [Header("Rotation")]
     [SerializeField] private Transform rotateBody;
     [SerializeField] private float rotateSpeed = 10f;
+
+
 
     private float attackTimer;
     private bool isAttacking;
@@ -134,8 +138,10 @@ public class Tower : BuildingBase
     }
     #endregion
 
+ 
+
     #region 투사체 발사
-    private void ShootProjectile(Transform target)
+    private async Task ShootProjectile(Transform target)
     {
 
         if (ObjectPoolManager.Instance == null)
@@ -147,7 +153,13 @@ public class Tower : BuildingBase
         if (firePoint == null)
             return;
 
-        GameObject prefab = towerData.projectileData.projectilePF;
+        ProjectileData data = towerData.projectileData;
+
+        GameObject prefab = ObjectPoolManager.Instance.GetProjectile(
+            towerData.projectileData.projectileID
+            );
+
+        Debug.Log($"[Projectile] 로드 결과 = {(prefab == null ? "NULL" : prefab.name)}");
 
         if (prefab == null)
             return;
@@ -181,8 +193,13 @@ public class Tower : BuildingBase
         }
 
         isAttacking = true;
+        HitBoxData data = towerData.hitBoxAttackData;
 
-        GameObject prefab = towerData.hitBoxAttackData.hitBoxPrefab;
+        GameObject prefab = ObjectPoolManager.Instance.GetHitBox(
+             towerData.hitBoxAttackData.hitBoxID
+        );
+
+        Debug.Log($"[HitBox] 로드 결과 = {(prefab == null ? "NULL" : prefab.name)}");
 
         if (prefab == null)
         {

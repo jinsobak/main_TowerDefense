@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Default Local Group
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
   m_GroupName: Default Local Group
+<<<<<<< Updated upstream
   m_GUID: fb1b1ad18d732f94692cfb11c1e112d8
   m_SerializeEntries:
   - m_GUID: 14da851dccbe7334dbd5571a4a181a76
@@ -27,3 +28,88 @@ MonoBehaviour:
     m_Schemas:
     - {fileID: 11400000, guid: 1c66ddcb7e71a97419a66fb05fec6947, type: 2}
     - {fileID: 11400000, guid: a11433cea402e2942a9eab6cfba50afa, type: 2}
+=======
+  m_GUID: 4b553ce3799a97e4396fe35ead793a48
+  m_SerializeEntries:
+  - m_GUID: 0ce8c047fa7f26248b9e14250a55ec7c
+    m_Address: Assets/SO/TowerDataSO/TestFlameTower.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Tower
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 167734c874059ea4eab809f73f11d640
+    m_Address: Assets/Prefabs/HitBox/Fire_HitSmall.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - HitEffect
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18d2b03dab4102b4fa5cd7aba5a5e404
+    m_Address: Assets/Prefabs/Projectile/Projectile_Bullet.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Projectiles
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b55dec9921f0e4439f638a5cb2a954f
+    m_Address: Assets/Prefabs/Projectile/Projectiles_Luncher.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Projectiles
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4df76543a904f20458827d0e99690400
+    m_Address: Assets/SO/AttackSo/TestProjectileLuncher.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b47cd3198bdb41e4c84c691ad9e61d8d
+    m_Address: Assets/Prefabs/Projectile/Bubble.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca384fe1efcc88547ba1d18ab9a53131
+    m_Address: Assets/Prefabs/Projectile/Hit_fire.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - HitEffect
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccb11473b2cf5b2439f0edd3b4d28434
+    m_Address: Assets/SO/AttackSo/TestBulletData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Projectiles
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cdf1c43bdf483754f82191a777161750
+    m_Address: Assets/SO/AttackSo/TestFlame.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e393610002f3f1e42bed2f10b03ed509
+    m_Address: Assets/SO/TowerDataSO/TestTowerData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Tower
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f094352850be13c49b024e4b9aa4583c
+    m_Address: Assets/SO/TowerDataSO/TestLuncher.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Tower
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f43d546f448decb41af66526a7f44009
+    m_Address: Assets/Prefabs/HitBox/Flamethrower.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - HitBox
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6ca4b83107ee1f48961b491c447f6d9
+    m_Address: Assets/Prefabs/Projectile/Explosion_A_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - HitEffect
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ac39431266b7baa4983f4392124ed5fb, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6fee94673319a1d4ea5fb1a48f2e0bcd, type: 2}
+    - {fileID: 11400000, guid: 0cde62ffc64e6434cad52fdaab0cce39, type: 2}
+>>>>>>> Stashed changes

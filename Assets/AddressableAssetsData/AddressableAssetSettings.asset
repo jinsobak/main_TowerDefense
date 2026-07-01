@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetSettings
+<<<<<<< Updated upstream
   m_DefaultGroup: fb1b1ad18d732f94692cfb11c1e112d8
   m_currentHash:
     serializedVersion: 2
     Hash: 49fa667774db32e02304c85e4b05d849
+=======
+  m_DefaultGroup: 4b553ce3799a97e4396fe35ead793a48
+  m_currentHash:
+    serializedVersion: 2
+    Hash: 0d49df9d37ac9ad3fbdd42885c4e5740
+>>>>>>> Stashed changes
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_CatalogRequestsTimeout: 0
@@ -52,22 +59,34 @@ MonoBehaviour:
   m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
+<<<<<<< Updated upstream
     m_Id: 
   m_RemoteCatalogLoadPath:
     m_Id: 
   m_ContentStateBuildPathProfileVariableName: 
+=======
+    m_Id: 48d80d48d1fe6674ba7c69185e03a640
+  m_RemoteCatalogLoadPath:
+    m_Id: 06466433790e517499bbfb420369f02a
+  m_ContentStateBuildPathProfileVariableName: <default settings path>
+>>>>>>> Stashed changes
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
   m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
   m_GroupAssets:
+<<<<<<< Updated upstream
   - {fileID: 11400000, guid: 9992946f206fc284bb38243eac8b66fb, type: 2}
+=======
+  - {fileID: 11400000, guid: 6be05d4e99c3d284ca7f79366d79fac3, type: 2}
+>>>>>>> Stashed changes
   m_BuildSettings:
     m_LogResourceManagerExceptions: 1
     m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
   m_ProfileSettings:
     m_Profiles:
     - m_InheritedParent: 
+<<<<<<< Updated upstream
       m_Id: 1d90c5ac3aae2194d9640ce99ae45911
       m_ProfileName: Default
       m_Values:
@@ -97,21 +116,69 @@ MonoBehaviour:
     - m_Id: eef4075fc3574e94bb73610dffa0439a
       m_Name: Local.LoadPath
       m_InlineUsage: 0
+=======
+      m_Id: c049488522026294996674a1d9d40fdd
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 06466433790e517499bbfb420369f02a
+        m_Value: <undefined>
+      - m_Id: 39a0f0b0afb8a344e895b6ecd13a0600
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 48d80d48d1fe6674ba7c69185e03a640
+        m_Value: 'ServerData/[BuildTarget]'
+      - m_Id: 5a0b34deb33a6f946a8b25248ccad417
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 78afe48cedea6f14b80fbd26ac5d1b4c
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+    m_ProfileEntryNames:
+    - m_Id: 06466433790e517499bbfb420369f02a
+      m_Name: Remote.LoadPath
+      m_InlineUsage: 0
+    - m_Id: 39a0f0b0afb8a344e895b6ecd13a0600
+      m_Name: Local.BuildPath
+      m_InlineUsage: 0
+    - m_Id: 48d80d48d1fe6674ba7c69185e03a640
+      m_Name: Remote.BuildPath
+      m_InlineUsage: 0
+    - m_Id: 5a0b34deb33a6f946a8b25248ccad417
+      m_Name: Local.LoadPath
+      m_InlineUsage: 0
+    - m_Id: 78afe48cedea6f14b80fbd26ac5d1b4c
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+>>>>>>> Stashed changes
     m_ProfileVersion: 1
   m_LabelTable:
     m_LabelNames:
     - default
+<<<<<<< Updated upstream
     - Pooling
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 7956ad28e156c3943b85d1c1f11ed898, type: 2}
+=======
+    - Projectiles
+    - HitBox
+    - HitEffect
+    - Tower
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: d30f30b0c33e7b3458dc5d361ffaef85, type: 2}
+>>>>>>> Stashed changes
   m_InitializationObjects: []
   m_CertificateHandlerType:
     m_AssemblyName: 
     m_ClassName: 
   m_ActivePlayerDataBuilderIndex: 2
   m_DataBuilders:
+<<<<<<< Updated upstream
   - {fileID: 11400000, guid: 66790ea9c4ce7844691ec059935cd58a, type: 2}
   - {fileID: 11400000, guid: 02d29e3b1ff9f9d4298ec7ae37d5bc0f, type: 2}
   - {fileID: 11400000, guid: 61fed0910ed2cd8468507cbe4e0a7be3, type: 2}
   m_ActiveProfileId: 1d90c5ac3aae2194d9640ce99ae45911
+=======
+  - {fileID: 11400000, guid: 12af14ed8c70ca347a4bb537c43cfb3e, type: 2}
+  - {fileID: 11400000, guid: c0ce957bf1c42534b908084612f5416e, type: 2}
+  - {fileID: 11400000, guid: 54b96da81a46cb542be8e77632dd1a81, type: 2}
+  m_ActiveProfileId: c049488522026294996674a1d9d40fdd
+>>>>>>> Stashed changes

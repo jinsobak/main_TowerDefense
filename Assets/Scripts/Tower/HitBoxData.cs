@@ -1,11 +1,15 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 [CreateAssetMenu(menuName = "Attack/HitBox")]
-public class HitBoxAttackData : ScriptableObject
+public class HitBoxData : ScriptableObject
 {
-    [Header("HitBox")]
-    public GameObject hitBoxPrefab;
+    [Header("Addressable")]
+    public string label;
+    public int hitBoxID;
+    public int hitEffectID;
+    //public AssetReferenceGameObject hitBoxReference;
     public float activeTime = 0.3f;
     public float damageInterval = 0.2f;
 
@@ -20,6 +24,5 @@ public class HitBoxAttackData : ScriptableObject
     [Header("Debuff Tick")]
     public float debuffApplyInterval = 0.5f;
 
-    [Header("Effect")]
-    public GameObject effectPrefab;
+   
 }

@@ -5,7 +5,7 @@ public class AreaHitBox : PoolableObject
 {
     private int damage;
     private LayerMask monsterLayer;
-    private HitBoxAttackData hitBoxData;
+    private HitBoxData hitBoxData;
 
     private Dictionary<Monster, float> damageTimers = new Dictionary<Monster, float>();
 
@@ -18,7 +18,7 @@ public class AreaHitBox : PoolableObject
         boxCollider = GetComponent<BoxCollider>();
     }
 
-    public void Initialize(Transform target, int damage, LayerMask monsterLayer, HitBoxAttackData data)
+    public void Initialize(Transform target, int damage, LayerMask monsterLayer, HitBoxData data)
     {
         this.target = target;
         this.damage = damage;
