@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ddb33cc3fa4b04a98240db7ac33fbb, type: 3}
   m_Name: ProjectileDB
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileDB
-  projectiles: []
+  projectiles:
+  - {fileID: 11400000, guid: ccb11473b2cf5b2439f0edd3b4d28434, type: 2}
+  - {fileID: 11400000, guid: 4df76543a904f20458827d0e99690400, type: 2}

@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 015be0af84d290c4ab8b8ee7b1e9caf6, type: 3}
   m_Name: HitBoxDB
   m_EditorClassIdentifier: Assembly-CSharp::HitBoxDB
-  hitBoxes: []
+  hitBoxes:
+  - {fileID: 11400000, guid: cdf1c43bdf483754f82191a777161750, type: 2}

@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 436dffeed80d04c4d857304485a50831, type: 3}
   m_Name: TestStunArea
   m_EditorClassIdentifier: Assembly-CSharp::HitBoxAttackData
-  hitBoxPrefab: {fileID: 2033358281796941150, guid: 3b1c54572b2e58243a5f71c24a4900fe, type: 3}
+  label: 
+  hitBoxID: 1004
+  hitEffectID: 0
   activeTime: 5
   damageInterval: 5
   boxSize: {x: 1.5, y: 1.5, z: 6}
@@ -26,4 +28,3 @@ MonoBehaviour:
     maxStack: 0
     refreshDuration: 1
   debuffApplyInterval: 0.5
-  effectPrefab: {fileID: 6690736211316310120, guid: e7eab914f7d32a244b2f031dcee3e2f4, type: 3}

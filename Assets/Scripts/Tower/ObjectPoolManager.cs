@@ -74,19 +74,21 @@ public class ObjectPoolManager : MonoBehaviour
                     data.label,
                     prefab =>
                     {
-                        projectileTable[data.hitBoxID] = prefab;
+                        hitBoxTable[data.hitBoxID] = prefab;
 
-                        Debug.Log($"Projectile 등록 : {data.hitBoxID}");
+                        Debug.Log($"HitBox 등록 : {data.hitBoxID}");
                     });
 
             yield return handle;
         }
     }
+
     private IEnumerator LoadEffectAssets()
     {
         foreach (EffectData data in effectDatabase.effects)
         {
-            var handle = Addressables.LoadAssetsAsync<GameObject>(
+            AsyncOperationHandle handle = 
+                Addressables.LoadAssetsAsync<GameObject>(
                 data.label,
                 prefab =>
                 {
@@ -106,8 +108,16 @@ public class ObjectPoolManager : MonoBehaviour
 
     public GameObject GetHitBox(int id)
     {
-        hitBoxTable.TryGetValue(id, out GameObject prefab);
-        return prefab;
+        Debug.Log($"HitBox 요청 ID : {id}");
+
+        if (hitBoxTable.TryGetValue(id, out GameObject prefab))
+        {
+            Debug.Log($"HitBox 찾음 : {prefab.name}");
+            return prefab;
+        }
+
+        Debug.LogError($"HitBox ID 없음 : {id}");
+        return null;
     }
 
     public GameObject GetEffect(int id)
