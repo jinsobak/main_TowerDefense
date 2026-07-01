@@ -146,7 +146,7 @@ public class Tower : BuildingBase
 
         if (ObjectPoolManager.Instance == null)
         {
-            Debug.LogError("ObjectPoolManager.Instance가 null입니다. 씬에 ObjectPoolManager 오브젝트가 없습니다.");
+            //Debug.LogError("ObjectPoolManager.Instance가 null입니다. 씬에 ObjectPoolManager 오브젝트가 없습니다.");
             return;
         }
 
@@ -159,7 +159,7 @@ public class Tower : BuildingBase
             towerData.projectileData.projectileID
             );
 
-        Debug.Log($"[Projectile] 로드 결과 = {(prefab == null ? "NULL" : prefab.name)}");
+        //Debug.Log($"[Projectile] 로드 결과 = {(prefab == null ? "NULL" : prefab.name)}");
 
         if (prefab == null)
             return;
@@ -169,7 +169,7 @@ public class Tower : BuildingBase
 
         if (projectile == null)
         {
-            Debug.LogError($"{prefab.name}에 Projectile 컴포넌트가 없음");
+            //Debug.LogError($"{prefab.name}에 Projectile 컴포넌트가 없음");
             return;
         }
         projectile.Initialize(target, towerData.damage, towerData.projectileData);
@@ -182,13 +182,13 @@ public class Tower : BuildingBase
     {
         if (ObjectPoolManager.Instance == null)
         {
-            Debug.LogError("ObjectPoolManager.Instance가 null입니다.");
+            //Debug.LogError("ObjectPoolManager.Instance가 null입니다.");
             yield break;
         }
 
         if (towerData.hitBoxAttackData == null)
         {
-            Debug.LogError($"{name} : hitBoxAttackData 없음");
+            //Debug.LogError($"{name} : hitBoxAttackData 없음");
             yield break;
         }
 
@@ -199,11 +199,11 @@ public class Tower : BuildingBase
              towerData.hitBoxAttackData.hitBoxID
         );
 
-        Debug.Log($"[HitBox] 로드 결과 = {(prefab == null ? "NULL" : prefab.name)}");
+        //Debug.Log($"[HitBox] 로드 결과 = {(prefab == null ? "NULL" : prefab.name)}");
 
         if (prefab == null)
         {
-            Debug.LogError($"{name} : hitBoxPrefab 없음");
+            //Debug.LogError($"{name} : hitBoxPrefab 없음");
             yield break;
         }
 
@@ -216,7 +216,7 @@ public class Tower : BuildingBase
 
         if (hitBox == null)
         {
-            Debug.LogError($"{prefab.name} : AreaHitBox Spawn 실패");
+            //Debug.LogError($"{prefab.name} : AreaHitBox Spawn 실패");
             yield break;
         }
 
