@@ -384,8 +384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 9, y: 0}
   neighbors: []
 --- !u!65 &99026603
 BoxCollider:
@@ -512,8 +511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 3, y: 0}
   neighbors: []
 --- !u!65 &107616673
 BoxCollider:
@@ -1202,8 +1200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 2, y: 6}
   neighbors: []
 --- !u!65 &224123560
 BoxCollider:
@@ -1559,8 +1556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 6, y: 10}
   neighbors: []
 --- !u!65 &290017306
 BoxCollider:
@@ -1803,8 +1799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 2, y: 0}
   neighbors: []
 --- !u!65 &332210924
 BoxCollider:
@@ -1997,8 +1992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 10, y: 2}
   neighbors: []
 --- !u!65 &369025986
 BoxCollider:
@@ -2592,8 +2586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 7, y: 6}
   neighbors: []
 --- !u!65 &423585668
 BoxCollider:
@@ -2786,8 +2779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 10, y: 5}
   neighbors: []
 --- !u!65 &530416363
 BoxCollider:
@@ -2984,8 +2976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 2, y: 10}
   neighbors: []
 --- !u!65 &576781632
 BoxCollider:
@@ -3112,8 +3103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 5, y: 6}
   neighbors: []
 --- !u!65 &587535095
 BoxCollider:
@@ -3306,8 +3296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 4, y: 0}
   neighbors: []
 --- !u!65 &613941185
 BoxCollider:
@@ -3694,8 +3683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 2, y: 7}
   neighbors: []
 --- !u!65 &678908806
 BoxCollider:
@@ -3888,8 +3876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 10, y: 0}
   neighbors: []
 --- !u!65 &692821711
 BoxCollider:
@@ -4016,8 +4003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 2, y: 9}
   neighbors: []
 --- !u!65 &748234981
 BoxCollider:
@@ -4421,8 +4407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 3, y: 10}
   neighbors: []
 --- !u!65 &781223895
 BoxCollider:
@@ -4804,8 +4789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 4, y: 6}
   neighbors: []
 --- !u!65 &838644742
 BoxCollider:
@@ -4932,8 +4916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 8, y: 10}
   neighbors: []
 --- !u!65 &847965019
 BoxCollider:
@@ -5243,8 +5226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 2, y: 8}
   neighbors: []
 --- !u!65 &894271757
 BoxCollider:
@@ -5503,8 +5485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 4, y: 10}
   neighbors: []
 --- !u!65 &926533777
 BoxCollider:
@@ -6016,8 +5997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 7, y: 0}
   neighbors: []
 --- !u!65 &1014224290
 BoxCollider:
@@ -6210,8 +6190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 7, y: 10}
   neighbors: []
 --- !u!65 &1032835384
 BoxCollider:
@@ -6633,8 +6612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 9, y: 6}
   neighbors: []
 --- !u!65 &1177464316
 BoxCollider:
@@ -6827,8 +6805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 1, y: 0}
   neighbors: []
 --- !u!65 &1202380729
 BoxCollider:
@@ -7021,8 +6998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 6, y: 0}
   neighbors: []
 --- !u!65 &1237025062
 BoxCollider:
@@ -7347,8 +7323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 8, y: 6}
   neighbors: []
 --- !u!65 &1303876620
 BoxCollider:
@@ -7475,8 +7450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 7, y: 10}
   neighbors: []
 --- !u!65 &1333451079
 BoxCollider:
@@ -8155,7 +8129,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MonsterManager
   useAutoSpawn: 1
   monsterPrefab: {fileID: 4253210182481893339, guid: d71c56f2e6af1ba449a0a11217b143a4, type: 3}
-  poolSize: 100
   spawnY: 0.1
   separationRadius: 1
   separationStrength: 1
@@ -8164,6 +8137,7 @@ MonoBehaviour:
   containmentStrength: 2
   paths:
   - pathName: 111
+    monsterData: {fileID: 11400000, guid: 14da851dccbe7334dbd5571a4a181a76, type: 2}
     waypoints:
     - {fileID: 1557897971}
     - {fileID: 1202380727}
@@ -8350,7 +8324,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
   gridPos: {x: 0, y: 0}
-  monstersOnTile: []
   neighbors: []
 --- !u!65 &1557897973
 BoxCollider:
@@ -8694,8 +8667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 9, y: 10}
   neighbors: []
 --- !u!65 &1640494404
 BoxCollider:
@@ -9007,8 +8979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 10, y: 1}
   neighbors: []
 --- !u!65 &1711782189
 BoxCollider:
@@ -9135,8 +9106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 8, y: 0}
   neighbors: []
 --- !u!65 &1734803123
 BoxCollider:
@@ -9388,8 +9358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 3, y: 6}
   neighbors: []
 --- !u!65 &1751137751
 BoxCollider:
@@ -10016,8 +9985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 6, y: 6}
   neighbors: []
 --- !u!65 &1884842694
 BoxCollider:
@@ -10223,8 +10191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 5, y: 0}
   neighbors: []
 --- !u!65 &1951665405
 BoxCollider:
@@ -10351,8 +10318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 5, y: 10}
   neighbors: []
 --- !u!65 &1954330960
 BoxCollider:
@@ -10479,8 +10445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 10, y: 6}
   neighbors: []
 --- !u!65 &1964231056
 BoxCollider:
@@ -10607,8 +10572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 10, y: 4}
   neighbors: []
 --- !u!65 &1975994529
 BoxCollider:
@@ -10801,8 +10765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 10, y: 10}
   neighbors: []
 --- !u!65 &2017544395
 BoxCollider:
@@ -10929,8 +10892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 10, y: 3}
   neighbors: []
 --- !u!65 &2020253011
 BoxCollider:
@@ -11057,8 +11019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1578fb0d8d0553642b54ad2a2efbad7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
-  gridPos: {x: 0, y: 0}
-  monstersOnTile: []
+  gridPos: {x: 11, y: 10}
   neighbors: []
 --- !u!65 &2084468381
 BoxCollider:
